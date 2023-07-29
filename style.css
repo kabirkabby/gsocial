@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Suisse Intl;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
+.cursor{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: rgb(255, 122, 200);
+    z-index: 9;
+    mix-blend-mode: difference;
+    transition: left linear 0.3s top linear 0.3s;
+
+}
+
+.container{
+    background-color: #0F0D0D;
+}
+
+.page1 {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.navigation {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
+}
+
+#nav-circle {
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.nav-tabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.navigation h4 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.hero-text-l {
+    font-size: 7vw;
+    font-weight: 400;
+    margin-top: 8vw;
+    margin-left: 12vw; 
+    font-family: PP mori;
+}
+
+.hero-text-r {
+    font-size: 8vw;
+    font-weight: 400;
+    margin-left: 23vw;
+    font-family: PP mori;
+}
+
+.page1 video {
+    width: 60%;
+    margin-top: 15vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.page2{
+    padding: 8vh 6vw;
+    min-height: 80vh;
+    width: 100%;
+    color: #0F0D0D;
+    border-bottom: 2px solid #0F0D0D;
+}
+
+.page2-head{
+    font-family: PP mori;
+    font-size: 14vh;
+    font-weight: 300;
+   
+    padding-bottom: 2vh;
+}
+.page2-container {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.page2-left{
+    width: 38%;
+}
+
+.page2-left h2{
+    font-size: 4vw;
+    font-weight: 200;
+    line-height: 4vw;
+}
+.page2-right{
+  width: 50%;
+  padding-left: 19vw;
+
+}
+
+.page2-right p{
+    font-size: 24px;
+    font-weight: 100;
+    font-family: Suisse Intl;
+}
+
+.page2-right button{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 0;
+    background-color: rgb(250, 28, 102);
+    color: #fff;
+    margin-top: 24px;
+
+}
+.page3 {
+    min-height: 100vw;
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+}
+
+.page3 h2{
+    font-size: 6.8vw;
+    font-weight: 300;
+    color: #111;
+    margin-left: 6vw;
+}
+
+.page3-sec1{
+    display: flex ;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.page3-sec1 img{
+    height: 600px;
+    margin-top: 300px;
+    padding-left: 6vw;
+}
+.page3-sec1 video{
+    width: 400px;
+}
